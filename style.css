@@ -64,6 +64,7 @@ h1,p {
 	.line {
 		margin-left: 50px;
 		margin-right: 50px;
+
 	}
 }
 .header{
@@ -84,12 +85,14 @@ h1,p {
 	font-weight: 700;
 	font-size : 170%;
 	text-align : left;
+	
 }
 #paragrapheHome {
 	font-size: 130%;
 	font-family: 'Lato', sans-serif;
 	font-weight: lighter;
-	line-height: 40px
+	line-height: 30px;
+	padding: 0 20px;
 }
 .titre{
 	background-color: white;
@@ -118,15 +121,16 @@ table, td{
 }
 #textright{
 	text-align: right;
+	font-weight: bold;
 	font-size: 130%;
 	margin-top: -35px;
 }
 @media (max-width: 767px){
 	#textleft{
-		margin-left: 55px;
+		margin-left: 60px;
 	}
 	#textright{
-		margin-right: 55px;
+		margin-right: 60px;
 	}
 }
 
